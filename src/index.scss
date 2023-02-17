@@ -1,0 +1,123 @@
+.contain{
+  background-image: url(Components/Images/fang-wei-lin-H1IRUS1vEFA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  color:#29c722;
+  height: 100vh;
+}
+header {
+    background-color: #d3d3d3db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+    > *{
+      padding: 15px;
+      cursor: pointer;
+    } 
+    h1{
+      margin: 0;
+    }
+    nav{
+      ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+          padding: 9px 20px;
+          text-decoration: none;
+          color: #1d9818;
+          font-weight: bold;
+          &:hover{
+            color: #29c722;
+            border-bottom: 1px solid;
+          }
+        }
+
+      }
+    }
+  }
+  /* main */
+  .mainParent{
+    height: 77%;
+    .search{
+      background-color: #d3d3d3db;
+      .topicList{
+        overflow: auto;
+        height: 69vh;
+        
+        .topic {
+          padding: 5px;
+          margin: 5px;
+          background: cornsilk;
+          border-radius: 5px;
+      }
+      }
+    }
+    .main{
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    
+      h2{
+        text-align: center;
+      }
+
+      .section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 67vh;
+        overflow: auto;
+      }
+
+      .book {
+        width: 19%;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px 20px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        > .frame{
+          height: 56%;
+          flex: 4;
+        }
+
+        > .about{
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+
+          > div{
+            flex: 1;
+          }
+        }
+
+        > .addBox{
+          flex: 1;
+        }
+    }
+    }
+  }
+
+  /* footer */
+
+  .footer {
+    background-color: #d3d3d3db;
+    text-align: center;
+    padding: 19px;
+    color: black;
+  }
