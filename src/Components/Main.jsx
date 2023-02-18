@@ -93,7 +93,7 @@ function Main() {
                   <div><span> Yazar:</span><span> {book.author}</span></div>
                   <div><span>Qiymət:</span> <span>{book.price} AZN</span></div>
                 </div>
-                <button onClick={()=>addBooks(book.id)} className="addBox btn btn-primary">Səbətə Əlavə et</button>
+                <button onClick={()=>addBooks(book.id)} className="addBox btn btn-primary">+</button>
               </div>)
           }
         </div>
