@@ -35,6 +35,12 @@ header nav ul li {
   color: #1d9818;
   font-weight: bold;
 }
+header nav ul li .BoxNumber {
+  color: red;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 1px 7px;
+}
 header nav ul li:hover {
   color: #29c722;
   border-bottom: 1px solid;
@@ -43,6 +49,17 @@ header nav ul li:hover {
 /* main */
 .mainParent {
   height: 77%;
+}
+.mainParent > .modalDisBl {
+  display: block;
+}
+.mainParent .modal-body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.mainParent .modal-body h3 {
+  text-align: center;
 }
 .mainParent .search {
   background-color: rgba(211, 211, 211, 0.8588235294);
@@ -56,6 +73,7 @@ header nav ul li:hover {
   margin: 5px;
   background: cornsilk;
   border-radius: 5px;
+  cursor: pointer;
 }
 .mainParent .main {
   display: flex;
@@ -71,7 +89,7 @@ header nav ul li:hover {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 67vh;
+  height: 100%;
   overflow: auto;
 }
 .mainParent .main .book {

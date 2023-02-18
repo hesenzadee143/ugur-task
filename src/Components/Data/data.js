@@ -133,8 +133,8 @@ const data = [
       topic:["family"," spirituality"," morality"]
     }
   ];
-let books=[]
-let topics=[]
+let Books=[]
+let Topics=[]
 
 // bu for topic arrayini doldurur
 for (let i = 0; i < data.length; i++) {
@@ -142,8 +142,8 @@ for (let i = 0; i < data.length; i++) {
     
     let find=data[i].topic[j]
     
-    if (!topics.includes(find)) {
-      topics.push(find)
+    if (!Topics.includes(find)) {
+      Topics.push(find)
     }
   }
 }
@@ -155,7 +155,7 @@ for (let x = 0; x < data.length; x++) {
 
   book.id=randomNumber()
 
-  books.push(book)
+  Books.push(book)
 }
 
 let Box=[]
@@ -171,4 +171,4 @@ function randomNumber() {
 //   Box=JSON.parse(localdanGelenBoxBooks)
 // }
 
-export {data,Box,books,topics}
+export {data,Box,Books,Topics}
