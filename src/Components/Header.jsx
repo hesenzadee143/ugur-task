@@ -30,12 +30,11 @@ function Header() {
       const topic = Topics[x];
 
       if(topic.toLowerCase().includes(value.toLowerCase())){
-       finded.push(topic)
+        finded.push(topic)
       }
     }
       setTopics(finded)
   }
-
 
   return (
     <>
