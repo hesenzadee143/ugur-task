@@ -83,18 +83,20 @@ function Main() {
         <h2>Endirimdə olan Kitaplar</h2>
         <div className='section' id='section'>
           {
-            books.map((book, i) =>
-              <div className="book" key={i}>
-                <div className="frame" >
-                  <img src={book.image} />
-                </div>
-                <div className="about">
-                  <div>{book.name}</div>
-                  <div><span> Yazar:</span><span> {book.author}</span></div>
-                  <div><span>Qiymət:</span> <span>{book.price} AZN</span></div>
-                </div>
-                <button onClick={()=>addBooks(book.id)} className="addBox btn btn-primary">+</button>
-              </div>)
+           books.length==0?
+           <h1>Axtardığınız mövzuda kitab tapılmamışdır.</h1>
+           : books.map((book, i) =>
+           <div className="book" key={i}>
+             <div className="frame" >
+               <img src={book.image} />
+             </div>
+             <div className="about">
+               <div>{book.name}</div>
+               <div><span> Yazar:</span><span> {book.author}</span></div>
+               <div><span>Qiymət:</span> <span>{book.price} AZN</span></div>
+             </div>
+             <button onClick={()=>addBooks(book.id)} className="addBox btn btn-primary">Səbətə At</button>
+           </div>)
           }
         </div>
       </div>

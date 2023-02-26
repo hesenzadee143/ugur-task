@@ -18,7 +18,7 @@ const data = [
       image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/71ithu0AGdL._AC_UY218_.jpg",
       author: "F. Scott Fitzgerald",
       price: 30,
-      topic:["wealth"," love"," American Dream"]
+      topic:["wealth","love","American Dream"]
     },
     {
       name: "Pride and Prejudice",
@@ -32,21 +32,21 @@ const data = [
       image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61pekVSBRhL._AC_UY218_.jpg",
       author: "Anne Frank",
       price: 30,
-      topic:["Holocaust", "coming of age"," hope"]
+      topic:["Holocaust", "coming of age","hope"]
     },
     {
       name: "Lord of the Flies",
       image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81lm+EzpWQL._AC_UY218_.jpg",
       author: "William Golding",
       price: 25,
-      topic:["human nature"," power", "morality"]
+      topic:["human nature","power", "morality"]
     },
     {
       name: "The Catcher in the Rye",
       image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/618XWn5fD5L._AC_UY218_.jpg",
       author: "J.D. Salinger",
       price: 30,
-      topic:["adolescence", "identity"," loss"]
+      topic:["adolescence","identity","loss"]
     },
     {
       name: "Animal Farm",
@@ -88,7 +88,7 @@ const data = [
       image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/71HOtbT2w3L._AC_UY218_.jpg",
       author: "Aldous Huxley",
       price: 30,
-      topic:["dystopia"," freedom"," technology"]
+      topic:["dystopia"," freedom","technology"]
     },
     {
       name: "The Grapes of Wrath",
@@ -116,21 +116,21 @@ const data = [
       image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81oPpqxn6+S._AC_UY218_.jpg",
       author: "H.G. Wells",
       price: 30,
-      topic:["alien invasion"," imperialism", "survival"]
+      topic:["alien invasion","imperialism", "survival"]
     },
     {
       name: "The Adventures of Huckleberry Finn",
       image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/71cUyYihbKL._AC_UY218_.jpg",
       author: "Mark Twain",
       price: 30,
-      topic:["race"," freedom"," friendship"]
+      topic:["race","freedom"," friendship"]
     },
     {
       name: "The Brothers Karamazov",
       image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61U4Zb-vJlL._AC_UY218_.jpg",
       author: "Fyodor Dostoevsky",
       price: 30,
-      topic:["family"," spirituality"," morality"]
+      topic:["family","spirituality","morality"]
     }
   ];
 let Books=[]
