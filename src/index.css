@@ -107,9 +107,21 @@ header nav ul li:hover {
   display: block;
 }
 .mainParent .modal-body {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: auto;
+  height: 62vh;
+}
+.mainParent .modal-body .book {
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+  margin: 10px 20px;
+  height: 300px;
+  display: flex;
+  width: 141px;
+  flex-direction: column;
 }
 .mainParent .modal-body h3 {
   text-align: center;
