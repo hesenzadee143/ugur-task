@@ -98,10 +98,9 @@ header {
       }
 
       .section {
-        display: grid;
-        grid-template-columns: repeat(5,auto);
-        // display: flex;
-        // flex-wrap: wrap;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
         width: 100%;
         height: 100%;
         overflow: auto;
@@ -109,13 +108,14 @@ header {
       }
 
       .book {
-       // width: 19%;
         text-align: center;
         font-weight: bold;
+        font-size: small;
         margin: 10px 20px;
         height: 300px;
         display: flex;
         flex-direction: column;
+        width: 141px;
         img {
           width: 100%;
           height: 100%;
@@ -151,13 +151,6 @@ header {
     padding: 17px;
     color: black;
   }
-
-@media(max-width:1243px){
-  .section{
-    grid-template-columns: repeat(4,auto) !important;
-    width: 19%;
-  }
-}
 @media(max-width:978px){
   header > nav{
     display: none;
@@ -178,20 +171,12 @@ header > input{
   grid-template-columns: repeat(3,auto) !important;
 }
 }
-
-@media(max-width:732px){
-  .section{
-    grid-template-columns: repeat(2,auto) !important;
-  }
-}
-@media(max-width:572px){
-  .section{
-   display: block !important;
-  }
-}
 @media(max-width:320px){
   header > *{
     padding: 13.5px;
+  }
+  .mainParent .main .book{
+    width: 120px;
   }
   .mainParent{
     height: 61%;
